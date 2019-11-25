@@ -14,10 +14,17 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::view('welcome','welcome');
+Route::view('contactus','contactus');
+Route::get('/Compte','compeController@index');
+Route::view('/usercompte','usercompte');
+Route::get('/admin', 'AdminController@index');
+Route::get('/user', 'SuperAdminController@index');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/admin', 'AdminController@index');
-Route::get('/user', 'SuperAdminController@index');
-
+Route::get('/logout', function(){
+    Auth::logout();
+    return Redirect::to('Compte');
+ });

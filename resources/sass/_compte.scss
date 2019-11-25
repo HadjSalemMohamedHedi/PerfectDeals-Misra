@@ -1,0 +1,68 @@
+.headerCompte{
+    width: 100%;
+    height: 110%;
+    background-image: url("/img/Compteimg/backinsc.jpg"); 
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 115px 0;
+    text-align: center;
+
+    h1{
+        color:#fff;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+    font-size: 85px;
+    }
+    h4{
+        color:#fff;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Cairo', sans-serif;
+        font-size: 75px;  
+    }
+    hr{
+        border: 2px solid #fff;
+        width: 25%;
+    }
+}
+.contenueCompte{
+    width: 100%;
+    height: 100%;
+    background-image: url("/img/Compteimg/backcontecompte.png"); 
+    margin-bottom: 5%;
+.left{ 
+    width: 40%;
+    padding: 2%;
+    float: left;
+    margin-left: 5%;
+    .form-control{
+        margin-top: 3%;
+        border-radius: 0;
+        padding: 4%;        
+    }
+    input::placeholder{
+            color: #6610f2;
+    }
+    button{
+    background-color: #6ec1e4;
+    margin-top: 3%;
+    width: 100%;
+    text-transform: uppercase;
+    }
+    button:hover{
+        background: #123;
+    }
+    #connecter{
+        display: none;
+    }
+    #insc{
+        display: none;
+    }
+}
+
+.right{
+    width: 50%;float: right;
+}
+.right img{height: 550px;}
+}
