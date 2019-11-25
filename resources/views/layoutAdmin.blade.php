@@ -90,15 +90,15 @@
 </nav>
 
 
-<div style="float:left;width:25%;height:100%;border-right:2px solid #123;padding-top:15%;">
+<div style="float:left;width:25%;height:80%;border-right:2px solid #123;padding-top:5%;">
 <div class="list-group">
-  <a href="#!" class="list-group-item list-group-item-action list-group-item-light">Deals Managements</a>
+  <a href="/DealsManagements" class="list-group-item list-group-item-action list-group-item-light">Deals Managements</a>
 </div>
 <div class="list-group">
-  <a href="#!" class="list-group-item list-group-item-action list-group-item-light">Users Managements</a>
+  <a href="/UsersManagements" class="list-group-item list-group-item-action list-group-item-light">Users Managements</a>
 </div>
 <div class="list-group">
-  <a href="#!" class="list-group-item list-group-item-action list-group-item-light">Tickets Managements</a>
+  <a href="/TiketsManagements" class="list-group-item list-group-item-action list-group-item-light">Tickets Managements</a>
 </div>
 <div class="list-group">
   <a href="#!" class="list-group-item list-group-item-action list-group-item-dark">My account</a>
@@ -110,7 +110,7 @@
 </div>
 
 
-<div style="float:right;width:75%;background:#f5f5f5">
+<div style="float:right;width:75%;background:#f5f5f5;padding:5%">
 @yield('content')
 </div>
 

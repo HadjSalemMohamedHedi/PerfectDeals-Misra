@@ -18,8 +18,9 @@ Route::view('home','welcome');
 Route::view('contactus','contactus');
 Route::get('/Compte','compeController@index');
 Route::view('/usercompte','usercompte');
-Route::get('/admin', 'AdminController@index');
 Route::get('/user', 'SuperAdminController@index');
+
+
 
 Auth::routes();
 
@@ -28,3 +29,10 @@ Route::get('/logout', function(){
     Auth::logout();
     return Redirect::to('Compte');
  });
+
+ Route::get('/admin', 'AdminController@index');
+ Route::get('/DealsManagements', 'DealsController@index');
+ Route::get('/UsersManagements', 'UsersController@index');
+ Route::get('/TiketsManagements', 'TicketsController@index');
+
+
