@@ -14,7 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::view('welcome','welcome');
+Route::view('home','welcome');
 Route::view('contactus','contactus');
 Route::get('/Compte','compeController@index');
 Route::view('/usercompte','usercompte');

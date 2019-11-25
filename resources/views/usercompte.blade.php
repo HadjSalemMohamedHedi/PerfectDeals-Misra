@@ -15,6 +15,8 @@
 <h4> <img src="{{asset('img/usersimage/user.jpg')}}" class="img-responsive"> {{ Auth::user()->name }}
 <i class="fas fa-cog" id="config"></i>
 <button type="button" class="btn btn-outline-danger" id="configCancel"><i class="fas fa-times"></i> Cancel</button>
+{{Auth::user()->role }}
+
 </h4>
 
 

@@ -37,13 +37,13 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item ">
-        <a class="nav-link" href="/welcome">Home </a>
+        <a class="nav-link" href="/">Home </a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="/IndexCar">Deals</a>
+        <a class="nav-link" href="/">Deals</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="/IndexCar">Tickts</a>
+        <a class="nav-link" href="/">Tickts</a>
       </li>
 
        </ul>
