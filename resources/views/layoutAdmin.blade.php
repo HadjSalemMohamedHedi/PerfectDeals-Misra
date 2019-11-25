@@ -45,7 +45,7 @@
       <li class="nav-item ">
         <a class="nav-link" href="/">Tickts</a>
       </li>
-
+        
        </ul>
        <ul class="nav navbar-nav navbar-right">
        <a class="nav-link" href="/contactus">Contact US </a>
@@ -74,7 +74,10 @@
                                 <li class="nav-item dropdown">
                                 <a class="nav-link"  href="/logout">
                                     <i class="fas fa-sign-out-alt"></i>Logout
-                                </a>                                
+                                </a> </li>
+                                <li>
+
+                         <a  class="btn btn-outline-warning" href="/admin">administrator</a>                                
                             </li>
                                                     
 
@@ -87,23 +90,29 @@
 </nav>
 
 
-<div style="float:left;width:40%;">
-<nav class="nav flex-column">
-  <a class="nav-link" href="#!">Active</a>
-  <a class="nav-link" href="#!">Link</a>
-  <a class="nav-link" href="#!">Link</a>
-</nav>
+<div style="float:left;width:25%;height:100%;border-right:2px solid #123;padding-top:15%;">
+<div class="list-group">
+  <a href="#!" class="list-group-item list-group-item-action list-group-item-light">Deals Managements</a>
+</div>
+<div class="list-group">
+  <a href="#!" class="list-group-item list-group-item-action list-group-item-light">Users Managements</a>
+</div>
+<div class="list-group">
+  <a href="#!" class="list-group-item list-group-item-action list-group-item-light">Tickets Managements</a>
+</div>
+<div class="list-group">
+  <a href="#!" class="list-group-item list-group-item-action list-group-item-dark">My account</a>
+</div>
+
+
+
 
 </div>
 
 
-<div style="float:right;width:40%;">
+<div style="float:right;width:75%;background:#f5f5f5">
 @yield('content')
 </div>
-
-
-
-
 
 
 
