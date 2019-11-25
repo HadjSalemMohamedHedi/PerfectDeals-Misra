@@ -32,6 +32,13 @@ Route::get('/logout', function(){
 
  Route::get('/admin', 'AdminController@index');
  Route::get('/DealsManagements', 'DealsController@index');
+ Route::get('/CreateDeal', 'DealsController@Create');
+ Route::post('/CreateDealStore','dealsController@store');
+ Route::get('/destroy/{deal}','dealsController@destroy');
+ Route::get('/editdeal/{deal}','dealsController@edit');
+ Route::put('/editdeal/update/{deal}','dealsController@update');
+
+
  Route::get('/UsersManagements', 'UsersController@index');
  Route::get('/TiketsManagements', 'TicketsController@index');
 
