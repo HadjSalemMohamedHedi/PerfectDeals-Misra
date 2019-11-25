@@ -9,7 +9,7 @@
             </div>
 
             <div class="ContactRight">
-                    right +left   
+                    right    
         </div>
         
     
