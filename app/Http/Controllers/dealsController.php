@@ -16,6 +16,8 @@ class dealsController extends Controller
     public function create()
     {
         return view('admin.CreateDeals');
+
+        
     }
 
 
