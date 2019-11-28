@@ -40,7 +40,7 @@
         <a class="nav-link" href="/">Home </a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="/">Deals</a>
+        <a class="nav-link" href="/Deals">Deals</a>
       </li>
       <li class="nav-item ">
         <a class="nav-link" href="/">Tickts</a>

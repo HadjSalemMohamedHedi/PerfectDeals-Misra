@@ -13,6 +13,13 @@ class dealsController extends Controller
         return view('admin.Deals',compact('Deals'));
     }
 
+
+    public function index2()
+    {
+        $Deals= Deal::all();
+        return view('Deals',compact('Deals'));
+    }
+
     public function create()
     {
         return view('admin.CreateDeals');
