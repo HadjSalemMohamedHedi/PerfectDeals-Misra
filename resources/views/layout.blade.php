@@ -40,7 +40,7 @@
         <a class="nav-link" href="/">Home </a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="/">Deals</a>
+        <a class="nav-link" href="/Deals">Deals</a>
       </li>
       <li class="nav-item ">
         <a class="nav-link" href="/">Tickts</a>
@@ -77,7 +77,7 @@
                                 </a> </li>
                                 <li>
 
-                         <a  class="btn btn-outline-warning" href="/admin">administrator</a>                                
+                         <a  class="btn btn-outline-warning" href="/DealsManagements">administrator</a>                                
                             </li>
                                                     
 
