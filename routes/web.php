@@ -48,5 +48,8 @@ Route::get('/logout', function(){
 
 
  Route::get('/TiketsManagements', 'TicketsController@index');
-
-
+ Route::get('/CreateTickets', 'TicketsController@Create');
+ Route::post('/CreateticketStore','TicketsController@store');
+ Route::get('/EditTicket/{ticket}','TicketsController@edit');
+ Route::put('/EditTicket/update/{ticket}','TicketsController@update');
+ Route::get('/DestroyTicket/{ticket}','TicketsController@destroy');
