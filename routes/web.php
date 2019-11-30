@@ -14,10 +14,39 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::view('home','welcome');
+Route::view('contactus','contactus');
+Route::get('Deals','DealsController@index2');
+Route::get('/Compte','compeController@index');
+Route::view('/usercompte','usercompte');
+Route::get('/user', 'SuperAdminController@index');
+
+
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/admin', 'AdminController@index');
-Route::get('/user', 'SuperAdminController@index');
+//Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/logout', function(){
+    Auth::logout();
+    return Redirect::to('Compte');
+ });
+
+ Route::get('/admin', 'AdminController@index');
+  Route::get('/DealsManagements', 'DealsController@index');
+ Route::get('/CreateDeal', 'DealsController@Create');
+ Route::post('/CreateDealStore','dealsController@store');
+ Route::get('/destroy/{deal}','dealsController@destroy');
+ Route::get('/editdeal/{deal}','dealsController@edit');
+ Route::get('/editdeal/update/{deal}','dealsController@update');
+
+
+ Route::get('/UsersManagements', 'UsersController@index');
+ Route::get('/edituser/{user}','UsersController@edit');
+ Route::put('/edituser/update/{user}','UsersController@update');
+ Route::get('/DestroyUser/{user}','UsersController@destroy');
+
+
+
+ Route::get('/TiketsManagements', 'TicketsController@index');
+
 
