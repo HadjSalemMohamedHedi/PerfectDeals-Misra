@@ -23,8 +23,7 @@ class dealsController extends Controller
     public function create()
     {
         return view('admin.CreateDeals');
-
-        
+       
     }
 
 
@@ -106,9 +105,7 @@ class dealsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function destroy(Deal $deal)
-    {
-
-            $deal->delete();
+    {       $deal->delete();
             return redirect('/DealsManagements');
         }
 

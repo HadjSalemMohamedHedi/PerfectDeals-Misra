@@ -32,15 +32,25 @@ Route::get('/logout', function(){
  });
 
  Route::get('/admin', 'AdminController@index');
- Route::get('/DealsManagements', 'DealsController@index');
+  Route::get('/DealsManagements', 'DealsController@index');
  Route::get('/CreateDeal', 'DealsController@Create');
  Route::post('/CreateDealStore','dealsController@store');
  Route::get('/destroy/{deal}','dealsController@destroy');
  Route::get('/editdeal/{deal}','dealsController@edit');
- Route::put('/editdeal/update/{deal}','dealsController@update');
+ Route::get('/editdeal/update/{deal}','dealsController@update');
 
 
  Route::get('/UsersManagements', 'UsersController@index');
+ Route::get('/edituser/{user}','UsersController@edit');
+ Route::put('/edituser/update/{user}','UsersController@update');
+ Route::get('/DestroyUser/{user}','UsersController@destroy');
+
+
+
+ Route::get('/ListeTikets', 'TicketsController@ListeTikets');
  Route::get('/TiketsManagements', 'TicketsController@index');
-
-
+ Route::get('/CreateTickets', 'TicketsController@Create');
+ Route::post('/CreateticketStore','TicketsController@store');
+ Route::get('/EditTicket/{ticket}','TicketsController@edit');
+ Route::put('/EditTicket/update/{ticket}','TicketsController@update');
+ Route::get('/DestroyTicket/{ticket}','TicketsController@destroy');
