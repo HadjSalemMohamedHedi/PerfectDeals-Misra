@@ -7,6 +7,8 @@
 require('./bootstrap');
 require('./navbar');
 require('./compte');
+require('./contact');
+require('./message');
 
 window.Vue = require('vue');
 

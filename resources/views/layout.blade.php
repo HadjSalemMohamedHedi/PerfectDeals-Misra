@@ -40,12 +40,12 @@
         <a class="nav-link" href="/">Home </a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="/">Deals</a>
+        <a class="nav-link" href="/Deals">Deals</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="/">Tickts</a>
+        <a class="nav-link" href="/ListeTikets">Tickts</a>
       </li>
-
+        
        </ul>
        <ul class="nav navbar-nav navbar-right">
        <a class="nav-link" href="/contactus">Contact US </a>
@@ -74,7 +74,10 @@
                                 <li class="nav-item dropdown">
                                 <a class="nav-link"  href="/logout">
                                     <i class="fas fa-sign-out-alt"></i>Logout
-                                </a>                                
+                                </a> </li>
+                                <li>
+
+                         <a  class="btn btn-outline-warning" href="/DealsManagements">administrator</a>                                
                             </li>
                                                     
 
