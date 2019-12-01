@@ -17,10 +17,12 @@ Route::get('/', function () {
 Route::view('home','welcome');
 Route::view('contactus','contactus');
 Route::get('Deals','DealsController@index2');
+
+
 Route::get('/Compte','compeController@index');
-Route::view('/usercompte','usercompte');
 Route::get('/user', 'SuperAdminController@index');
 
+Route::view('/usercompte','usercompte');
 
 
 Auth::routes();
