@@ -32,7 +32,7 @@ Route::get('/logout', function(){
  });
 
  Route::get('/admin', 'AdminController@index');
-  Route::get('/DealsManagements', 'DealsController@index');
+ Route::get('/DealsManagements', 'DealsController@index');
  Route::get('/CreateDeal', 'DealsController@Create');
  Route::post('/CreateDealStore','dealsController@store');
  Route::get('/destroy/{deal}','dealsController@destroy');
@@ -54,3 +54,9 @@ Route::get('/logout', function(){
  Route::get('/EditTicket/{ticket}','TicketsController@edit');
  Route::put('/EditTicket/update/{ticket}','TicketsController@update');
  Route::get('/DestroyTicket/{ticket}','TicketsController@destroy');
+
+
+
+ Route::post('/EnvoyerMessage','Contactcontroller@store');
+ Route::get('/MessagesManagements', 'Contactcontroller@index');
+ Route::get('/ShowMessage/{message}','Contactcontroller@show');

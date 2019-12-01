@@ -92,16 +92,18 @@
 
 <div style="float:left;width:25%;height:80%;border-right:2px solid #123;padding-top:5%;">
 <div class="list-group">
-  <a href="/DealsManagements" class="list-group-item list-group-item-action list-group-item-light">Deals Managements</a>
+  <a href="/DealsManagements" class="list-group-item list-group-item-action list-group-item-light"><i class="fas fa-award"></i> Deals Managements</a>
 </div>
 <div class="list-group">
-  <a href="/UsersManagements" class="list-group-item list-group-item-action list-group-item-light">Users Managements</a>
+  <a href="/UsersManagements" class="list-group-item list-group-item-action list-group-item-light"><i class="fas fa-address-card"></i> Users Managements</a>
 </div>
 <div class="list-group">
-  <a href="/TiketsManagements" class="list-group-item list-group-item-action list-group-item-light">Tickets Managements</a>
+  <a href="/TiketsManagements" class="list-group-item list-group-item-action list-group-item-light"><i class="fas fa-ticket-alt"></i> Tickets Managements</a>
 </div>
+
+
 <div class="list-group">
-  <a href="#!" class="list-group-item list-group-item-action list-group-item-dark">My account</a>
+<a href="/MessagesManagements" class="list-group-item list-group-item-action list-group-item-light"><i class="far fa-envelope-open"></i> ConTact</a>
 </div>
 
 

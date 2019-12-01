@@ -13,7 +13,7 @@
           </h6>
           <p>
           <i style="text-decoration: line-through;">{{$ticket->valeur}} DT</i>
-          <i style="color:#514095;font-weight:bold;float:right">{{$ticket->valeur}} DT</i>
+          <i style="color:#514095;font-weight:bold;float:right">{{$ticket->prix}} DT</i>
           </p>
          
       </div>

@@ -13,7 +13,7 @@
           </h6>
           <p>
           <i style="text-decoration: line-through;">{{$deal->valeur}} DT</i>
-          <i style="color:#514095;font-weight:bold;float:right">{{$deal->valeur}} DT</i>
+          <i style="color:#514095;font-weight:bold;float:right">{{$deal->prix}} DT</i>
           </p>
          
       </div>
