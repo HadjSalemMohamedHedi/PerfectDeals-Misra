@@ -9,6 +9,14 @@
   {{$deal->description}} .
   </p>
   <hr class="my-2">
+  <p class="lead">
+  <h4><i class="fas fa-phone-volume"></i> Phone : {{$deal->phone}} </h4> 
+  <h4> <i class="fas fa-map-marked-alt"></i> Adresse  : {{$deal->adresse}} </h4> 
+ 
+  </p>
+  <hr class="my-2">
+
+
   <p> 
   <span class="badge badge-danger"style="padding:2%;font-size:15px"> {{$deal->valeur}} DT   : سومو  </span>  
   <span class="badge badge-info"style="padding:2%;font-size:15px"> {{$deal->prix}} DT   : إشريه ب </span>  
