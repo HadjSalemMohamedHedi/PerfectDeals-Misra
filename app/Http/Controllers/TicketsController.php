@@ -13,6 +13,17 @@ class TicketsController extends Controller
     }
 
 
+  /**
+     * Display the specified resource.
+     *
+     * @param  \App\ticket  $ticket
+     * @return \Illuminate\Http\Response
+     */
+    public function show(ticket $ticket)
+    {       
+      return view('DetailTicket',compact('ticket'));
+    }
+
 
     public function ListeTikets()
     {
