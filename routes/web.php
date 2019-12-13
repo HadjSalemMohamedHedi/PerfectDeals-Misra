@@ -17,6 +17,7 @@ Route::get('/', function () {
 Route::view('home','welcome');
 Route::view('contactus','contactus');
 Route::get('Deals','DealsController@index2');
+<<<<<<< HEAD
 Route::get('ShowDeals/{deal}','DealsController@show');
 
 
@@ -24,6 +25,14 @@ Route::get('/Compte','compeController@index');
 Route::view('/usercompte','usercompte');
 Route::get('/user', 'SuperAdminController@index');
 
+=======
+
+
+Route::get('/Compte','compeController@index');
+Route::get('/user', 'SuperAdminController@index');
+
+Route::view('/usercompte','usercompte');
+>>>>>>> master
 
 
 Auth::routes();
@@ -40,7 +49,11 @@ Route::get('/logout', function(){
  Route::post('/CreateDealStore','dealsController@store');
  Route::get('/destroy/{deal}','dealsController@destroy');
  Route::get('/editdeal/{deal}','dealsController@edit');
+<<<<<<< HEAD
  Route::put('/editdeal/update/{deal}','dealsController@update');
+=======
+ Route::get('/editdeal/update/{deal}','dealsController@update');
+>>>>>>> master
 
 
  Route::get('/UsersManagements', 'UsersController@index');
@@ -51,9 +64,12 @@ Route::get('/logout', function(){
 
 
  Route::get('/ListeTikets', 'TicketsController@ListeTikets');
+<<<<<<< HEAD
  Route::get('ShowTicket/{ticket}','TicketsController@show');
 
 
+=======
+>>>>>>> master
  Route::get('/TiketsManagements', 'TicketsController@index');
  Route::get('/CreateTickets', 'TicketsController@Create');
  Route::post('/CreateticketStore','TicketsController@store');

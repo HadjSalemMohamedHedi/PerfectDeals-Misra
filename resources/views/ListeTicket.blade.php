@@ -5,11 +5,20 @@
 <div class="row"> 
 @foreach($Tickets as $ticket)
   <div class="col-sm-4">
+<<<<<<< HEAD
   <a href="ShowTicket/{{$ticket->id}}" >
     <div class="card tickets-card">
       <div class="card-body">
       <h3 style="color:#e03443;font-weight:bold">{{$ticket->nom}}</h3>
       <h6  style="color:#6d6868;font-weight:300">{{$ticket->description}}</h6>
+=======
+    <div class="card tickets-card">
+      <div class="card-body">
+          <h3 style="color:#e03443;font-weight:bold">{{$ticket->nom}}</h3>
+          <h6  style="color:#6d6868;font-weight:300">
+          {{$ticket->description}}
+          </h6>
+>>>>>>> master
           <p>
           <i style="text-decoration: line-through;">{{$ticket->valeur}} DT</i>
           <i style="color:#514095;font-weight:bold;float:right">{{$ticket->prix}} DT</i>
@@ -18,7 +27,10 @@
       </div>
       <button type="button" class="btn btn-outline-primary btn-sm btn-block">Acheter</button>
   </div>
+<<<<<<< HEAD
 </a>
+=======
+>>>>>>> master
 </div>
 @endforeach
 

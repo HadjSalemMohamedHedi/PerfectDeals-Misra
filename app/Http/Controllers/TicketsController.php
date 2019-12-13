@@ -13,6 +13,7 @@ class TicketsController extends Controller
     }
 
 
+<<<<<<< HEAD
   /**
      * Display the specified resource.
      *
@@ -24,6 +25,8 @@ class TicketsController extends Controller
       return view('DetailTicket',compact('ticket'));
     }
 
+=======
+>>>>>>> master
 
     public function ListeTikets()
     {
