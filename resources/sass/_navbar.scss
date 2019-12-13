@@ -1,22 +1,18 @@
 $backnav:#514095;
 $colrnav:#fdce08;
 @import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+
 .bg-light {
     background: $backnav !important;
     padding: 20px 0;
 }
-
-.navbar-light .navbar-brand {
+.navbar-light .navbar-brand{
     color: #fff;
 }
 
-.navbar-light .navbar-nav .show>.nav-link,
-.navbar-light .navbar-nav .active>.nav-link,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
     color: $colrnav;
 }
-
 .navbar-light .navbar-nav .nav-link:hover {
     color: $colrnav;
 }
@@ -28,9 +24,4 @@ $colrnav:#fdce08;
     font-weight: 700;
     text-transform: uppercase;
     margin-right: 20px;
-}
-
-.navbar-light .navbar-toggler {
-    color: $backnav;
-    background: #fff;
 }

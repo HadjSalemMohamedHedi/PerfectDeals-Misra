@@ -31,7 +31,6 @@
     <div class="container">
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  <i class="fas fa-align-right"></i>
   </button>
  <img src="{{ asset('img/logo.png') }}"> 
 
@@ -44,7 +43,7 @@
         <a class="nav-link" href="/Deals">Deals</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="/">Tickts</a>
+        <a class="nav-link" href="/ListeTikets">Tickts</a>
       </li>
         
        </ul>

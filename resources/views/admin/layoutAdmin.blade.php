@@ -40,12 +40,12 @@
         <a class="nav-link" href="/">Home </a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="/Deals">Deals</a>
+        <a class="nav-link" href="/">Deals</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="/ListeTikets">Tickts</a>
+        <a class="nav-link" href="/">Tickts</a>
       </li>
-        
+
        </ul>
        <ul class="nav navbar-nav navbar-right">
        <a class="nav-link" href="/contactus">Contact US </a>
@@ -74,10 +74,7 @@
                                 <li class="nav-item dropdown">
                                 <a class="nav-link"  href="/logout">
                                     <i class="fas fa-sign-out-alt"></i>Logout
-                                </a> </li>
-                                <li>
-
-                         <a  class="btn btn-outline-warning" href="/DealsManagements">administrator</a>                                
+                                </a>                                
                             </li>
                                                     
 
@@ -90,30 +87,23 @@
 </nav>
 
 
-<div style="float:left;width:25%;height:80%;border-right:2px solid #123;padding-top:5%;">
-<div class="list-group">
-  <a href="/DealsManagements" class="list-group-item list-group-item-action list-group-item-light"><i class="fas fa-award"></i> Deals Managements</a>
-</div>
-<div class="list-group">
-  <a href="/UsersManagements" class="list-group-item list-group-item-action list-group-item-light"><i class="fas fa-address-card"></i> Users Managements</a>
-</div>
-<div class="list-group">
-  <a href="/TiketsManagements" class="list-group-item list-group-item-action list-group-item-light"><i class="fas fa-ticket-alt"></i> Tickets Managements</a>
-</div>
-
-
-<div class="list-group">
-<a href="/MessagesManagements" class="list-group-item list-group-item-action list-group-item-light"><i class="far fa-envelope-open"></i> ConTact</a>
-</div>
-
-
+<div style="float:left;width:40%;">
+<nav class="nav flex-column">
+  <a class="nav-link" href="#!">Active</a>
+  <a class="nav-link" href="#!">Link</a>
+  <a class="nav-link" href="#!">Link</a>
+</nav>
 
 </div>
 
 
-<div style="float:right;width:75%;background:#f5f5f5;padding:5%">
+<div style="float:right;width:40%;">
 @yield('content')
 </div>
+
+
+
+
 
 
 

@@ -17,6 +17,9 @@ Route::get('/', function () {
 Route::view('home','welcome');
 Route::view('contactus','contactus');
 Route::get('Deals','DealsController@index2');
+Route::get('ShowDeals/{deal}','DealsController@show');
+
+
 Route::get('/Compte','compeController@index');
 Route::view('/usercompte','usercompte');
 Route::get('/user', 'SuperAdminController@index');
@@ -32,7 +35,7 @@ Route::get('/logout', function(){
  });
 
  Route::get('/admin', 'AdminController@index');
-  Route::get('/DealsManagements', 'DealsController@index');
+ Route::get('/DealsManagements', 'DealsController@index');
  Route::get('/CreateDeal', 'DealsController@Create');
  Route::post('/CreateDealStore','dealsController@store');
  Route::get('/destroy/{deal}','dealsController@destroy');
@@ -47,9 +50,19 @@ Route::get('/logout', function(){
 
 
 
+ Route::get('/ListeTikets', 'TicketsController@ListeTikets');
+ Route::get('ShowTicket/{ticket}','TicketsController@show');
+
+
  Route::get('/TiketsManagements', 'TicketsController@index');
  Route::get('/CreateTickets', 'TicketsController@Create');
  Route::post('/CreateticketStore','TicketsController@store');
  Route::get('/EditTicket/{ticket}','TicketsController@edit');
  Route::put('/EditTicket/update/{ticket}','TicketsController@update');
  Route::get('/DestroyTicket/{ticket}','TicketsController@destroy');
+
+
+
+ Route::post('/EnvoyerMessage','Contactcontroller@store');
+ Route::get('/MessagesManagements', 'Contactcontroller@index');
+ Route::get('/ShowMessage/{message}','Contactcontroller@show');

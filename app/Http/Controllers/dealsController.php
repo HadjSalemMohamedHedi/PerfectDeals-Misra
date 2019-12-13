@@ -27,6 +27,20 @@ class dealsController extends Controller
     }
 
 
+    
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  \App\Deal  $message
+     * @return \Illuminate\Http\Response
+     */
+    public function show(Deal $deal)
+    {       
+      return view('DetailDeal',compact('deal'));
+    }
+
+
     /**
      * Store a newly created resource in storage.
      *
