@@ -61,7 +61,6 @@ class dealsController extends Controller
      Deal::create($validatedData);
            return redirect('/CreateDeal');
      }
-     
 
 
  /**

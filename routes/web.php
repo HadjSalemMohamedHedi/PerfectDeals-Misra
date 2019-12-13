@@ -40,7 +40,7 @@ Route::get('/logout', function(){
  Route::post('/CreateDealStore','dealsController@store');
  Route::get('/destroy/{deal}','dealsController@destroy');
  Route::get('/editdeal/{deal}','dealsController@edit');
- Route::put('/editdeal/update/{deal}','dealsController@update');
+ Route::get('/editdeal/update/{deal}','dealsController@update');
 
 
  Route::get('/UsersManagements', 'UsersController@index');

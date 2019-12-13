@@ -11356,6 +11356,30 @@ a.text-dark:focus {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .display-3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .headerCompte {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 115px 0;
+    text-align: center;
+  }
+
+  .contenueCompte .right {
+    display: none;
+  }
+
+  .contenueCompte .left {
+    width: 90% !important;
+    padding: 2%;
+  }
+}
+
 html,
 body {
   background-color: #fff;
@@ -11991,6 +12015,10 @@ h6 {
   font-weight: 700;
   text-transform: uppercase;
   margin-right: 20px;
+}
+
+.fa-align-right {
+  color: #fff;
 }
 
 .header {
