@@ -27,7 +27,6 @@ class dealsController extends Controller
     }
 
 
-<<<<<<< HEAD
     
 
     /**
@@ -42,8 +41,6 @@ class dealsController extends Controller
     }
 
 
-=======
->>>>>>> master
     /**
      * Store a newly created resource in storage.
      *
